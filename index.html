@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./static/css/ReferralDashboard/style.css" />
+  </head>
+  <body>
+    <div class="page-bg">
+      <div class="header-container">
+        <img
+          src="./static/img/ReferralDashboard/site-logo.png"
+          alt="site-logo"
+          class="site-logo"
+        />
+        <ul class="page-sections">
+          <li class="current-route">Home</li>
+          <li>About Us</li>
+          <li>Courses</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+        <button class="header-trial-button">Try For Free</button>
+      </div>
+      <div class="sub-header-container">
+        <h1>Referral Dashboard</h1>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass search-icon"> </i>
+          <input
+            type="text"
+            placeholder="Search here..."
+            class="search-input"
+          />
+        </div>
+        <button class="search-button">Search</button>
+        <div class="bell-container">
+          <i class="fa-solid fa-circle notification-message"></i>
+          <i class="fa-regular fa-bell notification-bell-icon"></i>
+        </div>
+        <img
+          src="./static/img/ReferralDashboard/user-profile-image.png"
+          alt="user-profile"
+          class="user-profile-image"
+        />
+        <div>
+          <select id="user-role">
+            <option value="name">Anbu</option>
+            <option value="admin">Rajan</option>
+            <option value="admin">Velu</option>
+            <option value="admin">Guna</option>
+          </select>
+          <p class="admin-text">Admin</p>
+        </div>
+      </div>
+      <div class="page-content-container">
+        <div class="dashboard-cards-container">
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/001-donation.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>$9,568.00</p>
+              <p>Total Balance</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/002-cash.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>60%</p>
+              <p>Discount Percentage</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/003-credit-card.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>300</p>
+              <p>Total Referral</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/004-hourglass.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>$300</p>
+              <p>Discount Amount</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/005-percentage.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>$465.00</p>
+              <p>Commission Amount</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/006-wage.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>$158.00</p>
+              <p>Total Earning</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/007-referral.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>40%</p>
+              <p>Commission Discount</p>
+            </div>
+          </div>
+          <div class="dashboard-card">
+            <img
+              src="./static/img/ReferralDashboard/008-transfer.png.png"
+              alt="donation"
+              class="dashboard-card-image"
+            />
+            <div>
+              <p>$534.00</p>
+              <p>Total Bank Transfer</p>
+            </div>
+          </div>
+        </div>
+        <div class="referral-calculator-container">
+          <div class="referral-calculator-item">
+            <p class="referral-calculator-heading">Service</p>
+            <p class="referral-calculator-paragraph">some service</p>
+          </div>
+          <div class="referral-calculator-item">
+            <p class="referral-calculator-heading">Your Referrals</p>
+            <p class="referral-calculator-paragraph">0+ 0</p>
+          </div>
+          <div class="referral-calculator-item">
+            <p class="referral-calculator-heading">Active Referrals</p>
+            <p class="referral-calculator-paragraph">0+ 0</p>
+          </div>
+          <div class="referral-calculator-item">
+            <p class="referral-calculator-heading">Total Ref. Earnings</p>
+            <p class="referral-calculator-paragraph">$0.00</p>
+          </div>
+        </div>
+        <h3 class="refer-and-earn-title">Refer Friends And Earn More !!</h3>
+        <hr class="refer-separator" />
+        <div class="refer-link-code-container">
+          <div class="refer-link-container">
+            <p class="refer-link-code-heading">Your Referral Link</p>
+            <div class="refer-link-input-container">
+              <input
+                type="text"
+                class="refer-link-input"
+                placeholder="https://gobusiness.com/?refferal=ABCXYZ"
+              />
+              <button type="button" class="refer-copy-button">
+                <i class="fa-solid fa-copy refer-copy-icon"></i>Copy
+              </button>
+            </div>
+          </div>
+          <div class="refer-code-container">
+            <p class="refer-link-code-heading">Your Referral Code</p>
+            <div class="refer-link-input-container">
+              <input
+                type="text"
+                class="refer-link-input"
+                placeholder="ABCXYZ"
+              />
+              <button type="button" class="refer-copy-button">
+                <i class="fa-solid fa-copy refer-copy-icon"></i>Copy
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="entries-page-container">
+          <div class="entries-container">
+            <div class="entries-show-search-container">
+              <div class="entries-show-container">
+                <p class="entries-container-text">Show</p>
+                <input type="text" class="entries-show-input-container" />
+                <p class="entries-container-text">Entries</p>
+              </div>
+              <div class="entries-search-container">
+                <p class="entries-container-text">Search:</p>
+                <input type="text" class="entries-search-input-container" />
+              </div>
+            </div>
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Service Name</th>
+                <th>Date</th>
+                <th>Profit</th>
+              </tr>
+              <tr>
+                <td>Pranjal</td>
+                <td>PM</td>
+                <td>2011/11/28</td>
+                <td>$162,700</td>
+              </tr>
+              <tr>
+                <td>paritosh</td>
+                <td>PM</td>
+                <td>2007/10/09</td>
+                <td>$1,200,000</td>
+              </tr>
+              <tr>
+                <td>palav</td>
+                <td>B2b</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
+              </tr>
+              <tr>
+                <td>Moumita</td>
+                <td>HR</td>
+                <td>2012/10/13</td>
+                <td>$132,000</td>
+              </tr>
+              <tr>
+                <td>Mitesh</td>
+                <td>Graphics</td>
+                <td>2011/06/07</td>
+                <td>$206,850</td>
+              </tr>
+              <tr>
+                <td>Srinivas</td>
+                <td>Frontend</td>
+                <td>2012/12/02</td>
+                <td>$372,000</td>
+              </tr>
+              <tr>
+                <td>hritik</td>
+                <td>Graphics</td>
+                <td>2011/05/03</td>
+                <td>$163,500</td>
+              </tr>
+              <tr>
+                <td>abc</td>
+                <td>HR</td>
+                <td>2011/12/12</td>
+                <td>$106,450</td>
+              </tr>
+              <tr>
+                <td>xyz</td>
+                <td>B2b</td>
+                <td>2011/12/06</td>
+                <td>$145,600</td>
+              </tr>
+              <tr>
+                <td>bcd</td>
+                <td>B2b</td>
+                <td>2012/03/29</td>
+                <td>$433,060</td>
+              </tr>
+            </table>
+          </div>
+          <div class="show-page-entries">
+            <p>Showing 1 to 10 of 57 entries</p>
+            <div>
+              <button type="button" class="page-button">Previous</button>
+              <button type="button" class="page-button current-page-button">
+                1
+              </button>
+              <button type="button" class="page-button">2</button>
+              <button type="button" class="page-button">3</button>
+              <button type="button" class="page-button">4</button>
+              <button type="button" class="page-button">5</button>
+              <button type="button" class="page-button">6</button>
+              <button type="button" class="page-button">Next</button>
+            </div>
+          </div>
+        </div>
+        <div class="page-sub-footer-container">
+          <div class="section">
+            <h2>Company</h2>
+            <div>
+              <p><a href="#">About</a></p>
+              <p><a href="#">Premium</a></p>
+              <p><a href="#">Blog</a></p>
+              <p><a href="#">Referral Program</a></p>
+            </div>
+          </div>
+  
+          <div>
+            <h2>Help and Support</h2>
+            <div>
+              <p><a href="#">Contact Us</a></p>
+              <p><a href="#">Knowledge Center</a></p>
+              <p><a href="#">Premium Support</a></p>
+            </div>
+          </div>
+  
+          <div>
+            <h2>Learning</h2>
+            <div>
+              <p><a href="#">Learn Hub</a></p>
+              <p><a href="#">Tutorials</a></p>
+              <p><a href="#">Communities</a></p>
+            </div>
+          </div>
+  
+          <div>
+            <h2>Resources</h2>
+            <div>
+              <p><a href="#">Third-Party Tools</a></p>
+              <p><a href="#">Illustrations</a></p>
+              <p><a href="#">Stock Photos</a></p>
+            </div>
+          </div>
+  
+          <div>
+            <h2>Legal</h2>
+            <div>
+              <p><a href="#">Privacy Policy</a></p>
+              <p><a href="#">Terms & Conditions</a></p>
+              <p><a href="#">EULA</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="page-footer-container">
+          <img
+            src="./static/img/ReferralDashboard/site-logo.png"
+            alt="site-logo"
+            class="site-logo"
+          />
+          <p>© 2024 Go Business, Inc. All rights reserved.</p>
+          <div class="page-footer-icons-container page-footer-icon">
+            <i class="fa-brands fa-linkedin page-footer-icon"></i>
+            <i class="fa-brands fa-facebook-f page-footer-icon"></i>
+            <i class="fa-brands fa-instagram page-footer-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/41a457810f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
